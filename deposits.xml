@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<deposits script = "interest.gsl" >
+    <deposit amount = "1000000" rate = "5" years = "20" />
+    <deposit amount = "500000" rate = "4" years = "10" />
+    <deposit amount = "2500000" rate = "6" years = "15" />
+</deposits>

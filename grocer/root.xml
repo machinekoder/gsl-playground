@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<root>
+    <site
+        copyright = "Copyright &amp;#169; Local Grocer"
+        script = "sitegen_1.gsl">
+        <section
+            name = "Welcome">
+            <page
+                name = "index"
+                title = "Local Grocer"
+                subtitle = "Visit the Local Grocer">
+                <content>
+                    <h3>Close to you</h3>
+                    <p>We're just around the corner, if you live near by.</p>
+                    <h3>Always open</h3>
+                    <p>And if we're closed, just come back tomorrow.</p>
+                    <h3>Cheap and convenient</h3>
+                    <p>Much cheaper and easier than growing your own vegetables and fruit.</p>
+                </content>
+            </page>
+        </section>
+        <section
+            name = "Products">
+            <page
+                name = "fruit"
+                title = "Our Fruit Stand"
+                subtitle = "Lucious Tropical Fruits">
+                <content>
+                    <h3>Always fresh</h3>
+                    <p>Just like it was plucked from the tree last month.</p>
+                    <h3>Special deal</h3>
+                    <p>Any five pieces of fruit, for the price of ten!</p>
+                    <h3>Money back if not satisfied</h3>
+                    <p>We'll give you your money back if we're not satisfied with it!</p>
+                </content>
+            </page>
+            <page
+                name = "vegetables"
+                title = "Our Vegetables"
+                subtitle = "Healthy Organic Vegetables">
+                <content>
+                    <h3>100% organic vegetables</h3>
+                    <p>All vegetables made from cardon, oxygen, and hydrogen molecules
+with trace elements.</p>
+                    <h3>Country fresh style</h3>
+                    <p>We don't know what that means, but it sounded nice!</p>
+                    <h3>Unique take-away concept</h3>
+                    <p>Now you can consume your vegetables in the comfort of your own home.</p>
+                </content>
+            </page>
+        </section>
+    </site>
+</root>

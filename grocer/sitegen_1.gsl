@@ -1,0 +1,16 @@
+.### Since we run the script off the XML file, it starts in
+.### template mode.
+.template 0
+ ignorecase = 0
+ for section
+    for page
+        xml to section from "$(page.name).xml"
+        delete page
+    endfor
+ endfor
+ for section
+    for page
+        include "template.gsl"
+    endfor
+ endfor
+.endtemplate
